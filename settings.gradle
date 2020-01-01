@@ -1,0 +1,3 @@
+rootProject.name = 'maintenancelog'
+rootProject.buildFileName = 'build.gradle.kts'
+include 'log-api','log-ui'

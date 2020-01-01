@@ -1,0 +1,3 @@
+#NOTES
+### How the project was integrated to one jar.
+ https://ordina-jworks.github.io/architecture/2018/10/12/spring-boot-angular-gradle.html
