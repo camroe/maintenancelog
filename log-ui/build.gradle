@@ -14,9 +14,16 @@ repositories {
 }
 
 // 2
+//Mac Versions, node 10.16.3, npm 6.9.0
+//Windows 10, node 12.14.0, npm 6.13.4
 node {
-  version = '10.16.3'
-  npmVersion = '6.9.0'
+  //MAC - uncomment following 2 lines
+  //  version = '10.16.3'
+  //  npmVersion = '6.9.0'
+
+  //Windows - uncomment the following 2 lines
+  version = '12.14.0'
+  npmVersion = '6.13.4'
   download = false
 }
 

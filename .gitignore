@@ -47,3 +47,11 @@ Thumbs.db
 .gradle/
 ./.gradle
 /.gradle
+.idea
+/.idea
+**/.idea
+.gradle
+**/.gradle
+log-api/data
+log-ui/build/**
+
