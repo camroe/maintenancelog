@@ -14,7 +14,22 @@
 chrome-profiler-events.json
 speed-measure-plugin.json
 
-# IDEs and editors
+# IDEs and editors etc
+#If there is a separator at the beginning or middle (or both) of the pattern, then the pattern
+#is relative to the directory level of the particular .gitignore file itself.
+#Otherwise the pattern may also match at any level below the .gitignore level.
+
+#If there is a separator at the end of the pattern then the pattern will only match directories,
+#otherwise the pattern can match both files and directories.
+
+# You must use the following command if adding files or directories after any checkin
+#git rm --cached FILENAME
+# or
+#git rm -r --cached .idea/
+# if you want to remove a directory recursively
+
+.idea
+build/
 /.idea
 .project
 .classpath
@@ -22,6 +37,10 @@ speed-measure-plugin.json
 *.launch
 .settings/
 *.sublime-workspace
+.gradle/
+data/
+**/data/
+log-api/data/
 
 # IDE - VSCode
 .vscode/*
@@ -44,3 +63,4 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+#Generics
